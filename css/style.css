@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hero {
+    color: var(--white);
+    background: url("/img/appleBackground.jpg") no-repeat center;
+    height: 90vh;
+    background-size: cover;
+}
+
+nav a {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+body {
+    background: #5FA848;
+}
